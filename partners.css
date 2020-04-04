@@ -1,0 +1,17 @@
+.jumbotron {
+	background-color: #ff686b;
+	color: #fff;
+}
+
+.partners {
+	margin-top: 75px;
+}
+
+.partner-img {
+	height: 100px;
+	width: 300px;
+}
+
+.partner {
+	padding-bottom: 100px;
+}

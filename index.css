@@ -1,0 +1,87 @@
+
+.page-top {
+	background-color: none;
+	background-image: url("https://images.unsplash.com/photo-1518398046578-8cca57782e17?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+	background-repeat: no-repeat;
+ 	background-attachment: scroll;
+ 	background-position: top; 
+	background-size: 2000px;
+	height: 100vh;
+	font-family: 'Poppins', sans-serif;
+	color:#fff;
+	border-radius: 0 !important;
+}
+
+.header-text {
+	margin-top: 100px;
+	background: rgba(0, 0, 0, 0.5);
+	padding: 15px 30px 15px 30px;
+	
+}
+
+.header-button {
+	margin-top: 15px;
+}
+
+.features {
+	margin-left: 100px;
+}
+
+.featuress {
+	transition: all .15s ease-in-out;
+}
+
+.featuress:hover {
+	color: #fff;
+}
+
+.feature-icon {
+	font-size: 48px;
+	text-align: center;
+	padding-top: 25px;
+}
+
+.faq {
+	margin-top: 100px;
+}
+
+.faq-question {
+	font-weight: 500;
+}
+
+.faq-answer {
+	font-weight: 300;
+}
+
+.end-page {
+	background-color: #ff686b;
+	color: #fff;
+	margin-top: 100px;
+	height: 30vh;
+}
+
+
+.btn-white {
+	background-color: #fff;
+	color:#222f3e;
+}
+
+.btn-white:hover {
+	background-color: #222f3e;
+	color: #ff686b
+}
+
+.card:hover {
+	background-color: #222f3e;
+}
+
+
+#regModal .register-div {
+  display: none;
+}
+
+.checkmark {
+	font-size: 108px;
+	text-align: center;
+	color: #2ecc71;
+}

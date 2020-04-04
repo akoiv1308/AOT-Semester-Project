@@ -1,0 +1,305 @@
+<html lang="en">
+  <!-- https://l4-bootstrap-project-1.akoiv1308.repl.co/ -->
+
+<head>
+
+<script src="donate.js"></script>
+
+
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- Font Awesome -->
+	<script src="https://kit.fontawesome.com/c25d450206.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700&amp;display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="global.css">
+	<link rel="stylesheet" href="index.css">
+	<title>Recharge Shelter</title>
+</head>
+
+
+
+<body>
+
+<script>
+function changeText()
+{
+ document.getElementById('modal-body').innerHTML = '<div class="row"><div class="col-md"><div class="checkmark"> <i class="fas fa-check"></div></i></div></div><div class="row"><div class="col-md"><p style="text-align:center;">Thank you for your donation!</p></div></div>';
+ document.getElementById('modal-footer').innerHTML = '<button type="button" class="btn btn-primary" data-dismiss="modal">CLOSE</button>';
+}
+</script>
+
+
+
+
+	
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
+		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+		</button> <a class="navbar-brand" href="#!">Recharge Shelter</a>
+		<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+			<ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+				<li class="nav-item active"> <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item"> <a class="nav-link" href="shelters.html">Shelters</a>
+				</li>
+				<li class="nav-item"> <a class="nav-link" href="partners.html">Partners</a>
+				</li>
+				<li class="nav-item"> <a class="nav-link" href="team.html">Our Team</a>
+				</li>
+				<li class="nav-item"> <a class="nav-link" href="contact.html">Contact Us</a>
+				</li>
+				<li class="nav-item">
+					<button type="button" class="btn btn-primary contactus-nav" data-toggle="modal" data-target="#exampleModal">DONATE</button>
+
+
+					<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Donate</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" id="modal-body">
+        <form>
+  <div class="creditCardForm">
+   
+    <div class="payment">
+        <form>
+
+			<div class="form-group owner">
+                <label for="owner">Amount to donate</label>
+                <input type="number" class="form-control" id="owner" placeholder="$$$">
+            </div>
+
+            <div class="form-group owner">
+                <label for="owner">Full Name</label>
+                <input type="text" class="form-control" id="owner" placeholder="Please enter your full name">
+            </div>
+            
+            <div class="form-group" id="card-number-field">
+                <label for="cardNumber">Card Number</label>
+                <input type="text" class="form-control" id="cardNumber" placeholder="Please enter your credit card number">
+            </div>
+
+			<div class="form-group CVV">
+                <label for="cvv">CVV</label>
+                <input type="text" class="form-control" id="cvv" placeholder="Please enter the 3 numbers at the back of your card">
+            </div>
+
+            <div class="form-group" id="expiration-date">
+                <label>Expiration Date</label> <br>
+                <select>
+                    <option value="01">January</option>
+                    <option value="02">February </option>
+                    <option value="03">March</option>
+                    <option value="04">April</option>
+                    <option value="05">May</option>
+                    <option value="06">June</option>
+                    <option value="07">July</option>
+                    <option value="08">August</option>
+                    <option value="09">September</option>
+                    <option value="10">October</option>
+                    <option value="11">November</option>
+                    <option value="12">December</option>
+                </select>
+                <select>
+                   
+                    <option value="19"> 2019</option>
+                    <option value="20"> 2020</option>
+                    <option value="21"> 2021</option>
+					 <option value="19"> 2022</option>
+                    <option value="20"> 2023</option>
+                    <option value="21"> 2024</option>
+                </select>
+            </div>
+            
+            
+        </form>
+    </div>
+</div>
+
+</form>
+      </div>
+      <div class="modal-footer" id="modal-footer">
+        <button type="button" class="btn btn-primary contactus-nav" onclick="changeText()">DONATE!</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Finished modal -->
+
+
+
+
+
+
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<!-- Navbar -->
+	
+	
+	
+	<header>
+		<div class="jumbotron page-top">
+			<div class="container">
+				<div class="header-text">
+					<h1 class="display-4"><span class="bold-header">RECHARGE SHELTER</span></h1>
+					<p class="lead">Recharge Shelter focuses on helping those who have been displaced transition into permanent housing. We have two unique services aimed at helping the homeless feel welcomed and loved, aimed at helping create a smooth and easy transition into permanent housing.</p>
+				</div>
+				<p class="lead"> <a class="btn btn-primary btn-lg header-button" href="#services" role="button">Learn more</a>
+				</p>
+			</div>
+		</div>
+	</header>
+	<section class="features-section" id="services">
+		<div class="container">
+			<h3 class="section-title">our services</h3>
+			<div class="row">
+				<div class="col-md-4 ">
+					<div class="card featuress" style="width: 18rem;">	<i class="fas fa-moon feature-icon card-img-top"></i>
+						<div class="card-body">
+							<h5 class="card-title">Overnight Shelters</h5>
+							<p class="card-text">We provide overnight shelters so that homeless people have somewhere to sleep.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 ">
+					<div class="card featuress" style="width: 18rem;">	<i class="fas fa-clinic-medical feature-icon card-img-top"></i>
+						<div class="card-body">
+							<h5 class="card-title">Daytime Hospitality</h5>
+							<p class="card-text">We provide hospital services during the day to better suit your needs.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 ">
+					<div class="card featuress" style="width: 18rem;">	<i class="fas fa-hands-helping feature-icon card-img-top"></i>
+						<div class="card-body">
+							<h5 class="card-title">Social Advocacy</h5>
+							<p class="card-text">We provide public support to help you enjoy and live your life better.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<section class="faq container">
+			<h3 class="section-title">frequently asked questions</h3>
+			<div class="row">
+				<div class="col-md-6">
+					<p class="faq-question">How many people are homeless in the United States? </p>
+					<p class="faq-answer">According to the National Law Center on Homelessness and Poverty (NLCHP), approximately 3 million men, women and children are homeless each year in the U.S.</p>
+				</div>
+				<div class="col-md-6">
+					<p class="faq-question">Why do people become homeless?</p>
+					<p class="faq-answer">Lack of affordable housing; Lagging incomes; Domestic violence; mental illness; unemployment and substance abuse.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<p class="faq-question">How many homeless individuals are chronically homeless?</p>
+					<p class="faq-answer">More than 553,700 people were homeless on a single night across the US, according to the Department of Housing and Urban Development (BBC, 2017). More than 40 million people were living in poverty, and 18.5 million were living in deep poverty, with reported family income below one-half of the poverty threshold.</p>
+				</div>
+				<div class="col-md-6">
+					<p class="faq-question">What are the impacts of homelessness on children?</p>
+					<p class="faq-answer">Homelessness places individuals, particularly children, under extreme stress. Homeless children manifest the same symptoms as children who are abused and neglected, and exhibit more physical illness, mental disorders, major developmental delays, and poorer cognitive development than other children.</p>
+				</div>
+			</div>
+		</section>
+		<div class="jumbotron end-page">
+			<div class="container">
+				<h2 class="end-page-headline">Help homeless people get a new home!</h2>
+				<a class="btn btn-primary btn-lg btn-white" href="#" role="button" data-toggle="modal" data-target="#exampleModal">Donate Now!</a>
+			</div>
+		</div>
+		<footer id="footer" class="footer-1">
+			<div class="main-footer widgets-dark typo-light">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-6 col-md-3">
+							<div class="widget subscribe no-box">
+								<h5 class="widget-title">Recharge Shelter<span></span></h5>
+								<p>Po Box 1643
+									<br>
+									Brooklyn, NY,  98325
+									<br>
+									rechargeshelter@gmail.com
+									<br>
+									(523) 234-2546
+
+								</p>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3">
+							<div class="widget no-box">
+								<h5 class="widget-title">Quick Links<span></span></h5>
+								<ul class="thumbnail-widget">
+									<li>
+										<div class="thumb-content"><a href="#.">Our Shelters</a>
+										</div>
+									</li>
+									<li>
+										<div class="thumb-content"><a href="#.">Our Partners</a>
+										</div>
+									</li>
+									<li>
+										<div class="thumb-content"><a href="#.">Our Team</a>
+										</div>
+									</li>
+									<li>
+										<div class="thumb-content"><a href="#.">Contact Us</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3">
+							<div class="widget no-box">
+								<h5 class="widget-title">Donate<span></span></h5>
+								<p>Donate and help homeless people survive!</p>
+<a class="btn btn-primary" href="#" role="button" data-toggle="modal" data-target="#exampleModal">Donate Now!</a>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3">
+							<div class="widget no-box">
+								<h5 class="widget-title">Contact Us<span></span></h5>
+								<a class="btn btn-primary" href="#" role="button" style="margin-bottom: 10px;">Contact Us!</a>
+								<ul class="social-footer2">
+									<li class=""><a href="https://www.facebook.com/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+									</li>
+									<li class=""><a href="https://twitter.com" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+									</li>
+									<li class=""><a title="instagram" target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<p>Copyright Recharge Shelter © 2019. All rights reserved.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- Optional JavaScript -->
+		<script src="donate.js"></script>
+
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+i {
+  padding-right: 15px;
+}
+
+.headtext {
+  background: rgba(0, 0, 0, 0.5);
+  background-color: #f8f9fa!important;
+	padding: 15px 30px 15px 30px;
+  text-align:center;
+  color:black;
+}
+
+.jumbotron1 {
+  background-color: none;
+  background-image: url("s3.jpeg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+ 	background-position: top; 
+	/* background-size: 1450px 850px; */
+	height: 80vh;
+	font-family: 'Poppins', sans-serif;
+	color:#fff;
+}
+
+.jumbotron2 {
+	background-color: none;
+	background-image: url("s4.jpeg");
+	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+ 	background-position: top;
+   background-size: cover; 
+	/* background-size: 1450px 850px; */
+	height: 80vh;
+	font-family: 'Poppins', sans-serif;
+	color:#fff;
+}
+
+.jumbotron3 {
+	background-color: none;
+	background-image: url("s1.jpeg");
+	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+ 	background-position: top; 
+  background-size: cover;
+	/* background-size: 1450px 850px; */
+	height: 80vh;
+	font-family: 'Poppins', sans-serif;
+	color:#fff;
+}
+
+.jumbotron4 {
+	background-color: none;
+	background-image: url("s2.jpeg");
+	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+ 	background-position: top;
+   background-size: cover; 
+	/* background-size: 1450px 850px; */
+	height: 100vh;
+	font-family: 'Poppins', sans-serif;
+	color:#fff;
+}
+
+.header-text {
+	background: rgba(0, 0, 0, 0.5);
+	padding: 15px 30px 25px 30px;
+  text-align:center;
+}
+
+.mapouter {
+  padding-top: 15px;
+  padding-left: 75px;
+}
+
+.contact-info {
+  padding-left: 75px;
+  background: rgba(0, 0, 0, 0.5);
+	padding: 15px 30px 25px 30px;
+}

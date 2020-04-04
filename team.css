@@ -1,0 +1,73 @@
+/*Team*/
+.team{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.team img{
+  width: 250px;
+  height: 250px;
+  /*Object fit will crop and center image based on width and height*/
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 50px;
+}
+
+.col{
+   background-color: rgba(0, 0, 0, 0.5)
+}
+
+.team-info{
+ color: white;
+}
+
+body{
+  background: url("https://images.unsplash.com/photo-1518398046578-8cca57782e17?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+}
+
+h1{
+  color:white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+/* <!-- Team -->
+   <section id="team" class="team">
+    <center><h4>Team</h4></center>
+    <div class="row">
+      <div class="col-md-3">
+        <img src="https://images.unsplash.com/photo-1554151228-14d9def656e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=633&q=80" width = 200px; class = "employee"></img>
+        <h5>Junice Cox</h5>
+        <h6>CEO</h6>
+        <p>Chief Executive Officer. Responsible for the corporation's activities, contracts and legal action.</p>
+      </div>
+
+      <div class="col-md-3">
+        <img src="https://images.unsplash.com/photo-1541647376583-8934aaf3448a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" width = 200px; class = "employee"></img>        
+        <h5>Shaw Volynsky</h5>
+        <h6>COO</h6>
+        <p>Chief Operating Officer. Manages the corporation's daily affairs</p>
+      </div>
+
+      <div class="col-md-3">
+        <img src="https://images.unsplash.com/photo-1519420551009-127f1d10ba97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" width = 200px; class = "employee"></img>
+        <h5>Lunis Malik</h5>
+        <h6>CFO</h6>
+        <p>Chief Financial Officer. Manages corporation's financial matters.</p>
+      </div>
+
+      <div class="col-md-3">
+        <img src="https://images.unsplash.com/photo-1541418950054-c12804e149d9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" width = 200px; class = "employee"></img>
+        <h5>Safi Holdair</h5>
+        <h6>Secretary</h6>
+        <p>Maintains corporation's records, documents, and organizes meetings.</p>
+      </div>
+    </div>
+
+   </section>
+   
+.team{
+  margin-top: 80 px;
+  margin-bottom: 80 px;
+  } */
